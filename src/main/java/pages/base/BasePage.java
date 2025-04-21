@@ -64,7 +64,7 @@ public class BasePage {
         findElement(locator).clear();
     }
 
-    public void sendKeys(By locator, String text){
+    public void sendKeys(By locator, String text) {
         findElement(locator).sendKeys(text);
     }
 
